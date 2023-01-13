@@ -1,0 +1,141 @@
+.white-bg {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    padding: 1% 3%;
+}
+
+.carousel-indicators li {
+    height: 7px;
+    width: 10px;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin: 10px 3px;
+}
+
+.carousel-indicators .active {
+    height: 7px;
+    width: 30px;
+    border-radius: 14px;
+    background-image: linear-gradient(to right, #ff8206, #ffd019);
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.price {
+    color: #050505;
+}
+
+.btn {
+    background-color: #221f20a1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.father {
+
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.bags {
+    background-color: orange;/
+}
+
+.shoes {
+    background-color: blue;
+
+}
+
+.watch {
+    background-color: orchid;
+
+
+}
+
+.child {
+    border-radius: 10px;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: 100%;
+    padding: 2% 10%;
+}
+
+.child img {
+    height: 100px;
+
+
+}
+
+.child h1 {
+    align-self: center;
+    font-size: 250%;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+
+
+.content {
+    align-self: center;
+}
+
+.cata {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cata div {
+    height: 10px;
+    width: 220px;
+    background-image: linear-gradient(to right, #ff8206, #ffff00);
+    border-radius: 10px;
+
+}
+
+.shoe,
+.perfume {
+    border-radius: 15px 5px 30px 5px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 10% 20%;
+    margin: 10px;
+}
+
+.last_bag {
+    border-radius: 5px 15px 5px 30px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 10% 20%;
+    margin: 10px;
+
+
+
+}
+
+
+.last {
+    text-align: center;
+}
